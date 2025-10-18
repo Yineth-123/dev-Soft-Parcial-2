@@ -28,6 +28,7 @@ Representa una actividad pendiente a realizar.
 | `created_at`  | DateTime     | Fecha automática de creación            |
 
 * 4. Endpoints Implementados
+     
 | Método     | Ruta                      | Descripción                    |
 | ---------- | ------------------------- | ------------------------------ |
 | **POST**   | `/tasks`                  | Crear una nueva tarea          |
