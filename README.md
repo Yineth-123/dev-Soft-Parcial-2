@@ -1,6 +1,6 @@
 # dev-Soft-Parcial-2
-* Karen Yineth Ibarra Guzman 
-  * 408965
+**Nombre:** Karen Yineth Ibarra Guzman 
+**Código:** 408965
 * Decisiones de Diseño:
   * Tecnología elegida y razón:
      * Elegí desarrollar el proyecto utilizando Python con el framework FastAPI, por ser una tecnología moderna, ligera y con soporte para documentación automática mediante OpenAPI/Swagger. Además, FastAPI permite implementar validaciones automáticas con Pydantic, lo que facilita garantizar la integridad de los datos que ingresan al sistema. También permite una arquitectura escalable y buenas prácticas sin complejidad adicional.
@@ -11,3 +11,20 @@
      *  Cómo correr el proyecto. 
      *  Explicación decisiones de diseño. 
      *  Pruebe cada endpoint y evidencie su funcionamiento
+     # Parcial FastAPI - Gestión de Tareas
+
+
+## 🧠 Decisiones de diseño
+Elegí **Python + FastAPI** porque permite crear APIs rápidas y bien estructuradas con validación automática.  
+Usé arquitectura **Controller → Service → Repository**, para mantener responsabilidades separadas:
+- **Controller:** maneja rutas y peticiones.
+- **Service:** contiene reglas de negocio (validaciones, estados permitidos, etc.).
+- **Repository:** maneja la base de datos (SQLite) usando SQLAlchemy.
+
+## ⚙️ Cómo correr el proyecto
+1. Crear entorno virtual y activar:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activatevenv
+   venv\Scripts\activate
+
