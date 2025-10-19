@@ -50,7 +50,7 @@ El uso de almacenamiento InMemory permite hacer pruebas sin depender de bases de
    * Ideal para evaluar lógica de negocio.
 
 
-* Enlace de video:
+* Enlace de video: https://youtu.be/V93CD8rBCeU
      *  Cómo correr el proyecto. 
      *  Explicación decisiones de diseño. 
      *  Pruebe cada endpoint y evidencie su funcionamiento
